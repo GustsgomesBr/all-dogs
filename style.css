@@ -67,4 +67,25 @@ main{
     height: 80vh;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
+    color: #BB86FC;
+    display: flex;
+    justify-content: top;
+    align-items: center;
+    flex-direction: column;
+}
+
+main img{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border: solid 5px #BB86FC;
+    max-width: 25rem;
+    max-height: 25rem;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+main h3{
+    font-weight: 400;
+    font-size: 15px;    
+    margin-top: 20px;
 }

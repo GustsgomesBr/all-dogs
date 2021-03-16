@@ -9,27 +9,32 @@
 </head>
 <body>
     <div class="sideBar">
-        <input id="first" type="button" value="ALEATÓRIO">
-        <input type="button" value="VIRA-LATA">
-        <input type="button" value="BULLDOG">
-        <input type="button" value="BULLTERRIER">
-        <input type="button" value="CHIHUAHUA">
-        <input type="button" value="CORGI">
-        <input type="button" value="DOBERMAN">
-        <input type="button" value="PASTOR-ALEMÃO">
-        <input type="button" value="HUSKY">
-        <input type="button" value="LABRADOR">
-        <input type="button" value="LHASA">
-        <input type="button" value="PINSCHER">
-        <input type="button" value="PITBULL">
-        <input type="button" value="POODLE">
-        <input type="button" value="PUG">
-        <input type="button" value="RETRIEVER">
-        <input type="button" value="SHEEPDOG">
-        <input type="button" value="SHIBA">
-        <input type="button" value="SHIHTZU">
-        <input id="last" type="button" value="TERRIER">
+        <input id="first" type="button" value="ALEATÓRIO" onclick="getContent()">
+        <input type="button" value="MIX" onclick="searchDoggo(this.value)">
+        <input type="button" value="BULLDOG" onclick="searchDoggo(this.value)">
+        <input type="button" value="BULLTERRIER" onclick="searchDoggo(this.value)">
+        <input type="button" value="CHIHUAHUA" onclick="searchDoggo(this.value)">
+        <input type="button" value="CORGI" onclick="searchDoggo(this.value)">
+        <input type="button" value="DOBERMAN" onclick="searchDoggo(this.value)">
+        <input type="button" value="GERMANSHEPHERD" onclick="searchDoggo(this.value)">
+        <input type="button" value="HUSKY" onclick="searchDoggo(this.value)">
+        <input type="button" value="LABRADOR" onclick="searchDoggo(this.value)">
+        <input type="button" value="LHASA" onclick="searchDoggo(this.value)">
+        <input type="button" value="PINSCHER" onclick="searchDoggo(this.value)">
+        <input type="button" value="PITBULL" onclick="searchDoggo(this.value)">
+        <input type="button" value="POODLE" onclick="searchDoggo(this.value)">
+        <input type="button" value="PUG" onclick="searchDoggo(this.value)">
+        <input type="button" value="RETRIEVER" onclick="searchDoggo(this.value)">
+        <input type="button" value="SHEEPDOG" onclick="searchDoggo(this.value)">
+        <input type="button" value="SHIBA" onclick="searchDoggo(this.value)">
+        <input type="button" value="SHIHTZU" onclick="searchDoggo(this.value)">
+        <input id="last" type="button" value="TERRIER" onclick="searchDoggo(this.value)">
     </div>
-    <main></main>
+    <main>
+        <img id="doggoIMG" src="load.gif">
+        <h1 id="doggoName">ALEATÓRIO</h1>
+        <h3 id="doggoLink"></h3>
+    </main>
 </body>
+<script src="script.js"></script>
 </html>
