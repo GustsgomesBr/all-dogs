@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;500;600;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background: #121212;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sideBar{
+    width: 10vw;
+    height: 80vh;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background: #2b2b2b;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    border-right: 2px solid rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.sideBar input[type=button]{
+    border: none;
+    margin-top: 5px;
+    padding-left: 2px;
+    padding-right: 2px;
+    height: 1.6rem;
+    width: 10vw;
+    background: #BB86FC;
+    color: white;
+    font-weight: 700;
+    letter-spacing: 1px;
+    transition: 0.2s;
+}
+
+.sideBar input[type=button]:hover{
+    background: #a273db;
+    cursor: pointer;
+    letter-spacing: 2px;
+}
+
+
+.sideBar #first {
+    border-top-left-radius: 20px;
+}
+
+.sideBar #last {
+    border-bottom-left-radius: 20px;
+}
+
+
+main{
+    background: #1F1F1F;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    width: 50vw;
+    height: 80vh;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
